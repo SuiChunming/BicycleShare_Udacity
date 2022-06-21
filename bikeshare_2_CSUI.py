@@ -22,7 +22,7 @@ def get_filters():
     city = input("Please enter the name of the city you want to search: \n")
     
     while city.lower() not in city_name_list:
-        city = input("The city you searched is not in our database, please enter a valid city name again: \n")
+        city = input("The city you searched is not in our database, please enter a valid city name from Chicago, New york city or Washington: \n")
     
     city = city.lower()    
 
